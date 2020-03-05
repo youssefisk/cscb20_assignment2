@@ -1,13 +1,13 @@
-body{
+body {
 	font-family: helvetica, arial, sans-serif;
 	background-color: white;
 }
 
-h1{
+h1 {
 	text-align: center;
 }
 
-h2{
+h2 {
 	text-align: center;
 	background: slategrey;
 	padding-top:0px;
@@ -16,10 +16,16 @@ h2{
 	color: white;
 }
 
-a{
-	color: white;
+a {
+	color: rgb(10, 10, 200);
 	font-style: normal;
 	text-decoration: none;
+}
+
+li {
+
+    padding: 0;
+    margin: 0;
 }
 
 a:hover{
@@ -43,16 +49,16 @@ a:active{
 	padding-bottom: 0px;
 	background: slategray;
 	color: white;
-	/* position: fixed; */
 }
 
 ul.categories {
-    list-style-type: none;
+	list-style-type: none;
 }
 
-li.categories {
-	padding: 0;
-	margin: 0;
+a.cat_link {
+	color: white;
+	font-size: large;
+	font-weight: 600;
 }
 
 .main{
@@ -64,5 +70,3 @@ li.categories {
 	background-color: white;
 	padding: 1em;
 }
-
-
