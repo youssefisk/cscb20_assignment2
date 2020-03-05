@@ -46,6 +46,15 @@ a:active{
 	/* position: fixed; */
 }
 
+ul.categories {
+    list-style-type: none;
+}
+
+li.categories {
+	padding: 0;
+	margin: 0;
+}
+
 .main{
 	padding: 10px;
 	line-height: 1.6em;
