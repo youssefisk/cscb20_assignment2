@@ -45,7 +45,6 @@ a:visited{
 
 .content{
 	display: flex;
-	background: slategray;
 	width: 100%;
 }
 
@@ -53,7 +52,6 @@ a:visited{
 	padding:10px;
 	padding-top: 3em;
 	padding-bottom: 0px;
-	background: slategray;
 	color: white;
 	/* position: fixed; */
 }
