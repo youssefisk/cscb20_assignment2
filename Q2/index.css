@@ -33,6 +33,10 @@ a:visited{
 	text-decoration:none;
 }
 
+.categories a{
+	color: white;
+}
+
 .categories a:hover{
 	font-style: italic;
 	opacity: 0.5;
