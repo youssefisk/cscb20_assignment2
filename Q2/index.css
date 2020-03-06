@@ -49,10 +49,14 @@ a:active{
 	padding-bottom: 0px;
 	background: slategray;
 	color: white;
+	padding-right: 0%;
 }
 
 ul.categories {
 	list-style-type: none;
+	padding-right: 0%;
+	text-align: right;
+
 }
 
 a.cat_link {
@@ -61,12 +65,19 @@ a.cat_link {
 	font-weight: 600;
 }
 
+#contact {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	background-color: white;
+}
+
 .main{
 	padding: 10px;
 	line-height: 1.6em;
 }
 
-.description{
+#description{
 	background-color: white;
-	padding: 1em;
+	display: flex;
 }
