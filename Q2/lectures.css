@@ -1,0 +1,38 @@
+.description{
+    display:flex;
+    padding: 1em 1em;
+    position: relative;
+    width: 100%;
+}
+li a{
+    color:black;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+ul{
+    background-color: white;
+} 
+
+li{
+    list-style: none;
+    padding: 1em 5em;
+    border-bottom: 1px black solid;
+}
+li:nth-child(even) {background-color: rgb(231, 227, 227);}
+
+.week{
+    position: relative;
+    flex-grow: 10em;
+    min-width: 28%;   
+}
+.table{
+    position: relative;
+    padding-top: 1em;
+    flex-grow: 10em;
+    min-width: 28%;
+}
+
+.head{
+    font-style: bold;
+}
