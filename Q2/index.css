@@ -5,27 +5,13 @@ body {
 
 h1 {
 	text-align: center;
-}
-
-h2 {
-	text-align: center;
-	background: slategrey;
-	padding-top:0px;
-	padding-bottom: 20px;
-	border-bottom: 3px white solid;
-	color: white;
+	margin: 0%;
 }
 
 a {
 	color: rgb(10, 10, 200);
 	font-style: normal;
 	text-decoration: none;
-}
-
-li {
-
-    padding: 0;
-    margin: 0;
 }
 
 a:hover{
@@ -37,26 +23,58 @@ a:active{
 	color: black;
 }
 
+li {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+	background: navy;
+}
+
 .content{
 	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
 	background: slategray;
 	width: 100%;
+	align-items: baseline;
+}
+
+.content-title {
+	color: white;
+	order: -1;
+	width: 100%;
+	text-align: center;
+}
+
+.content-child {
+	margin: 5px;
+	border-radius: 6px;
+	padding: 0% 1%;
+	border: 5px;
+	border-color: pink;
+	border-style: solid;
 }
 
 .categories{
-	padding:10px;
-	padding-top: 3em;
-	padding-bottom: 0px;
-	background: slategray;
+	padding: 10px 0%;
+	margin: 0%;
 	color: white;
-	padding-right: 0%;
+	display: inline-flex;
+	justify-content: center;
+	width: 100%;
 }
 
 ul.categories {
 	list-style-type: none;
 	padding-right: 0%;
-	text-align: right;
+	text-align: center;
+}
 
+li.cat_item {
+	padding: 0px 1vw;
 }
 
 a.cat_link {
@@ -68,16 +86,20 @@ a.cat_link {
 #contact {
 	display: flex;
 	flex-direction: column;
-	justify-content: flex-end;
-	background-color: white;
-}
-
-.main{
-	padding: 10px;
-	line-height: 1.6em;
+	justify-content: space-evenly;
+	background-color: yellow;
+	order: 2;
+	flex: 1;
+	margin: 1px;
 }
 
 #description{
-	background-color: white;
-	display: flex;
+	background-color: green;
+	order: 1;
+	flex: 2;
+}
+
+#title {
+	width: 100vw;
+	font-size: large;
 }
