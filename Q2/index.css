@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Bitter:400,400i,700|Inter:400,500,600,700,800,900|Source+Sans+Pro:200,200i,300,300i,400,400i,600,600i,700&display=swap');
+
 body {
-	font-family: helvetica, arial, sans-serif;
+	font-family: 'Inter', helvetica, arial, sans-serif;
 	background-color: white;
 }
 
@@ -32,7 +34,7 @@ nav {
 	background: navy;
 }
 
-.content{
+#content {
 	display: flex;
 	justify-content: space-between;
 	flex-direction: row;
@@ -47,6 +49,8 @@ nav {
 	order: -1;
 	width: 100%;
 	text-align: center;
+	font-family: 'Bitter';
+	font-weight: 700;
 }
 
 .content-child {
@@ -87,7 +91,7 @@ a.cat_link {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-evenly;
-	background-color: yellow;
+	background-color: orangered;
 	order: 2;
 	flex: 1;
 	margin: 1px;
@@ -101,5 +105,7 @@ a.cat_link {
 
 #title {
 	width: 100vw;
-	font-size: large;
+	font-size: 18px;
+	font-family: 'Source Sans Pro';
+	font-weight: 700;
 }
