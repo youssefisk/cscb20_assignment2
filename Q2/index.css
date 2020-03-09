@@ -11,7 +11,7 @@ h1 {
 }
 
 a {
-	color: rgb(10, 10, 200);
+	color: rgb(104, 22, 0);
 	font-style: normal;
 	text-decoration: none;
 }
@@ -31,17 +31,27 @@ li {
 }
 
 nav {
-	background: navy;
+	background-color: #320A28;
+	border-radius: 100px 10px 0px 0px;
+}
+
+body {
+	margin-left:  4%;
+	margin-right: 4%;
+	background-color: rgb(247, 244, 247);
 }
 
 #content {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-evenly;
+	align-content: flex-start;
+	align-items: flex-end;
 	flex-direction: row;
 	flex-wrap: wrap;
-	background: slategray;
+	background-color: #511730;
 	width: 100%;
-	align-items: baseline;
+	height: 80vh;
+	border-radius: 0px 0px 100px 8px;
 }
 
 .content-title {
@@ -49,17 +59,17 @@ nav {
 	order: -1;
 	width: 100%;
 	text-align: center;
-	font-family: 'Bitter';
+	font-family: 'Source Sans Pro';
 	font-weight: 700;
 }
 
 .content-child {
-	margin: 5px;
-	border-radius: 6px;
 	padding: 0% 1%;
-	border: 5px;
-	border-color: pink;
-	border-style: solid;
+	min-width: 200px;
+	margin: 0% 3%;
+	max-height: 500px;
+	color: rgb(36, 36, 36);
+	background-color: #8E443D;
 }
 
 .categories{
@@ -90,17 +100,16 @@ a.cat_link {
 #contact {
 	display: flex;
 	flex-direction: column;
-	justify-content: space-evenly;
-	background-color: orangered;
+	justify-content: flex-start;
 	order: 2;
 	flex: 1;
-	margin: 1px;
+	max-width: 600px;
 }
 
 #description{
-	background-color: green;
 	order: 1;
 	flex: 2;
+	max-width: 800px;
 }
 
 #title {
