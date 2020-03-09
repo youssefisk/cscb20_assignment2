@@ -37,3 +37,8 @@ li:nth-child(even) {background-color: rgb(231, 227, 227);}
 .head{
     font-style: bold;
 }
+
+.coloumns{
+    padding: 1em;
+}
+
